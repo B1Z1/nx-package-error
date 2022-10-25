@@ -1,0 +1,22 @@
+{
+  "name": "dev-test",
+  "version": "0.0.0",
+  "description": "Test application",
+  "scripts": {
+    "build": "node ./index.js",
+    "test": "npm run build && jasmine src/**/*_spec.js"
+  },
+  "keywords": [
+    "schematics"
+  ],
+  "author": "",
+  "license": "MIT",
+  "schematics": "./src/collection.json",
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+  "nx": {
+    "ignore": true
+  }
+}
